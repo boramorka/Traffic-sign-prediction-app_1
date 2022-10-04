@@ -6,7 +6,7 @@ from keras.models import load_model
 
 
 #Loading the Model
-model = load_model('traffic_sign_model.h5')
+model = load_model('app/traffic_sign_model.h5')
 
 #Name of Classes
 CLASS_NAMES = ['Speed limit (20km/h)','Speed limit (30km/h)','Speed limit (50km/h)','Speed limit (60km/h)',
