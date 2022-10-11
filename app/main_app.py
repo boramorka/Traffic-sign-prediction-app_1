@@ -42,9 +42,9 @@ if submit:
         # Displaying the image
         st.image(opencv_image, channels="BGR")
         #Resizing the image
-        opencv_image = cv2.resize(opencv_image, (50,50))
+        opencv_image = cv2.resize(opencv_image, (30,30))
         #Convert image to 4 Dimension
-        opencv_image.shape = (1,50,50,3)
+        opencv_image.shape = (1,30,30,3)
         #Make Prediction
         Y_pred = model.predict(opencv_image)
 
