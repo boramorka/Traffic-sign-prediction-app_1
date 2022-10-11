@@ -26,10 +26,16 @@
   <a href="#feedback">Feedback</a>
 </p>
 
-App link: https://boramorka-traffic-sign-prediction-app-1-appmain-app-pxaza3.streamlitapp.com/
-
 ## How To Use
 
+**App link: https://boramorka-traffic-sign-prediction-app-1-appmain-app-pxaza3.streamlitapp.com/**
+> **Note:**
+> The model was trained on German road signs. please use German signs.
+
+> **Note:**
+> The application may be in sleep mode. In this case, you will see an offer to wake it up. You'll have to wait a couple of minutes.
+
+![Example](https://github.com/boramorka/usercontent/blob/main/traffic-sign/traffic-signs.gif?raw=true)
 
 ## How To Run Locally
 
